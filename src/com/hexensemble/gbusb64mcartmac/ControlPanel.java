@@ -25,7 +25,7 @@ import javax.swing.filechooser.FileFilter;
  * 
  * @author HexEnsemble
  * @author www.hexensemble.com
- * @version 1.0.0
+ * @version 1.0.1
  * @since 1.0.0
  */
 public class ControlPanel extends JFrame {
@@ -143,7 +143,7 @@ public class ControlPanel extends JFrame {
 					if (confirm == 0) {
 						String path = formatPath(file);
 
-						execCommand("--read " + path + " --bank " + bank + " --verbose");
+						execCommand("--write " + path + " --bank " + bank + " --verbose");
 					}
 				}
 			}
@@ -326,6 +326,8 @@ public class ControlPanel extends JFrame {
 		readSRAM.paintImmediately(buttonsHigh.getBounds());
 		refresh.setEnabled(false);
 		refresh.paintImmediately(buttonsHigh.getBounds());
+		about.setEnabled(false);
+		about.paintImmediately(buttonsHigh.getBounds());
 		quit.setEnabled(false);
 		quit.paintImmediately(buttonsHigh.getBounds());
 		consoleText.setText("Working, please wait. Do not unplug cartridge!");
@@ -343,6 +345,7 @@ public class ControlPanel extends JFrame {
 		writeSRAM.setEnabled(true);
 		readSRAM.setEnabled(true);
 		refresh.setEnabled(true);
+		about.setEnabled(true);
 		quit.setEnabled(true);
 		consoleText.setText(processor.getOutput());
 	}

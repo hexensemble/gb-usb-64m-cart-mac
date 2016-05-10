@@ -5,7 +5,7 @@ package com.hexensemble.gbusb64mcartmac;
  * 
  * @author HexEnsemble
  * @author www.hexensemble.com
- * @version 1.0.0
+ * @version 1.0.1
  * @since 1.0.0
  */
 public class Main {
@@ -23,12 +23,12 @@ public class Main {
 	/**
 	 * Application version.
 	 */
-	public static final String VERSION = "Version 1.0.0";
+	public static final String VERSION = "Version 1.0.1";
 
 	/**
 	 * Application date.
 	 */
-	public static final String DATE = "05-MAY-2016";
+	public static final String DATE = "10-MAY-2016";
 
 	/**
 	 * Author website.
