@@ -25,7 +25,7 @@ import javax.swing.filechooser.FileFilter;
  * 
  * @author HexEnsemble
  * @author www.hexensemble.com
- * @version 1.0.1
+ * @version 1.0.2
  * @since 1.0.0
  */
 public class ControlPanel extends JFrame {
@@ -143,7 +143,7 @@ public class ControlPanel extends JFrame {
 					if (confirm == 0) {
 						String path = formatPath(file);
 
-						execCommand("--write " + path + " --bank " + bank + " --verbose");
+						execCommand("--write " + path + " --bank " + bank + " --rom --verbose");
 					}
 				}
 			}
@@ -172,7 +172,7 @@ public class ControlPanel extends JFrame {
 					if (confirm == 0) {
 						String path = formatPath(file);
 
-						execCommand("--read " + path + " --bank " + bank + " --verbose");
+						execCommand("--read " + path + " --bank " + bank + " --rom --verbose");
 					}
 				}
 			}
@@ -194,7 +194,7 @@ public class ControlPanel extends JFrame {
 					if (confirm == 0) {
 						String path = formatPath(file);
 
-						execCommand("--save " + path + " --verbose");
+						execCommand("--write " + path + " --save --verbose");
 					}
 				}
 			}
@@ -216,7 +216,7 @@ public class ControlPanel extends JFrame {
 					if (confirm == 0) {
 						String path = formatPath(file);
 
-						execCommand("--read " + path + " --verbose");
+						execCommand("--read " + path + " --save --verbose");
 					}
 				}
 			}
