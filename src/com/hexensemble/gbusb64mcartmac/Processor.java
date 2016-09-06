@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 
  * @author HexEnsemble
  * @author www.hexensemble.com
- * @version 1.0.0
+ * @version 1.0.3
  * @since 1.0.0
  */
 public class Processor implements Runnable {
@@ -31,7 +31,7 @@ public class Processor implements Runnable {
 		lock = new ReentrantLock();
 
 		StringBuilder commandBuilder = new StringBuilder();
-		commandBuilder.append("cd EMSFlasher ; chmod u+x ems-flasher ; ./ems-flasher ");
+		commandBuilder.append("cd EMSFlasher ; ./ems-flasher ");
 		commandBuilder.append(command);
 		String fullCommand = commandBuilder.toString();
 
