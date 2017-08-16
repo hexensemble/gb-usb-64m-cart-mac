@@ -1,0 +1,2 @@
+$ cat .gitattributes
+doc/* linguist-documentation
