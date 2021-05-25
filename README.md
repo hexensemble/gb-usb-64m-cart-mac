@@ -7,3 +7,5 @@ The manufacture’s software is only available for Windows and the Mac alternati
 This app provides a simple GUI for EMS Flasher which should make life easier for those not familiar with terminal commands or anyone looking for a quicker way to manage their cartridge.
 
 Download: https://github.com/hexensemble/gb-usb-64m-cart-mac/releases
+
+WARNING: Doesn't work with macOS Catalina or above, sorry! Maybe someone can fork the project and carry on the work needed.
