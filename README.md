@@ -8,4 +8,6 @@ This app provides a simple GUI for EMS Flasher which should make life easier for
 
 Download: https://github.com/hexensemble/gb-usb-64m-cart-mac/releases
 
-WARNING: Doesn't work with macOS Catalina or above, sorry! Maybe someone can fork the project and carry on the work needed.
+Tested and working on Intel based Mac running macOS Big Sur.
+
+IMPORTANT: You will need to right click the application then click 'open' before macOS will let you use it. The first time you do this will fail but the second will work.
