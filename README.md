@@ -1,6 +1,6 @@
 # GB USB 64M Cart Mac
 
-An application for OS X which provides access to the “GB USB Smart Card 64M” Gameboy cartridge.
+An application for macOS which provides access to the “GB USB Smart Card 64M” Gameboy cartridge.
 
 This app provides a simple GUI for EMS Flasher by Mike Ryan. It should make life easier for those not familiar with terminal commands or anyone looking for a quicker way to manage their cartridge.
 
