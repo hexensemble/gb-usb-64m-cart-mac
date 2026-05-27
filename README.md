@@ -2,6 +2,8 @@
 
 macOS app for the “GB USB Smart Card 64M” Gameboy cartridge. 💾
 
+<br>
+
 This app provides a simple GUI for [EMS Flasher](https://github.com/mikeryan/ems-flasher) by Mike Ryan. It should make life easier for those not familiar with terminal commands or anyone looking for a quicker way to manage their cartridge.
 
 <br>
