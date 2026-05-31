@@ -18,4 +18,4 @@ This app provides a simple GUI for [EMS Flasher](https://github.com/mikeryan/ems
 
 Tested and working on Intel based Mac running macOS Big Sur.
 
-**IMPORTANT:** You will need to right click the application then click 'open' before macOS will let you use it. The first time you do this it will fail but the second attempt will work.
+**IMPORTANT:** You will need to right click the application then click *open* before macOS will let you use it. The first time you do this it will fail but the second attempt will work.
